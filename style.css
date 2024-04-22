@@ -9,8 +9,8 @@
 }
 
 body{
-    background-color: black;
-    height: 100vh;
+    background-image: linear-gradient(to bottom, #374f9e, #744778);
+    height: 100%;
 }
 .interface{
     max-width: 1200px;
@@ -47,7 +47,7 @@ header > .interface{
 }
 
 header a{
-    color:#5c5c5c ;
+    color:#000000 ;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
@@ -86,13 +86,15 @@ h2.titulo{
 /*Estilo Menu Mobile*/
 .btn-abrir-menu{
     display: none;
+    
 }
+
 .btn-abrir-menu i{
     color: #7e69c6;
     font-size: 40px;
 }
 .menu-mobile{
-    background-color: #000;
+    background-image: linear-gradient(to bottom, #374f9e, #744778);
     height: 100vh;
     position: fixed;
     top: 0;
@@ -170,7 +172,7 @@ gap: 250px;
         blink-caret .99s step-end infinite;
 }
 .topo-do-site .txt-topo-site h1 span{
-    color: #7e69c6;
+    color: #947ae7;
 }
 /* Animação de digitação */
 @keyframes typing {
@@ -227,7 +229,7 @@ section.dados-pessoais .flex{
     margin-bottom: 150px;
 }
 .dados-pessoais .txt-dados-pessoais h2 span{
-    color: #7e69c6;
+    color: #947ae7;
 }
 .dados-pessoais .txt-dados-pessoais p{
     font-size: 18px;
@@ -296,8 +298,8 @@ section .experiencia .flex{
     margin-top: 200px;
     margin-bottom: 30px;
 }
-.experiencia h2 span{
-    color: #7e69c6;
+span{
+    color: #947ae7;
 }
 .experiencia .experiencia-box:hover{
 transform: scale(1.05);
@@ -326,7 +328,7 @@ box-shadow: 0 0 8px #7e69c6;
     margin: 80px auto;
     border-radius: 20px;
     transition: .2s;
-    background-color: #9883e0;
+    background-color: #7453e3;
     border-radius: 20px;
     align-items: center;
 }
@@ -385,8 +387,8 @@ footer .line-footer p{
         position: fixed;
         top: 20;
         right: 0;
+        margin-right: 50px; 
     }
-
     .flex{
         flex-direction: column-reverse;
     }
