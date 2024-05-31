@@ -65,6 +65,8 @@ header nav ul{
 header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 20px;
+    font-size: 18px;
+
 }
 
 header .btn-contato button{
@@ -306,11 +308,10 @@ transform: scale(1.05);
 box-shadow: 0 0 8px #7e69c6;
 }
 
-.experiencia .experiencia-box p{
-    font-size: 13px;
-}
+
 .experiencia .experiencia-box h3{
     margin: 10px 0;
+    font-size: 15px;
 }
 .experiencia .experiencia-box h4{
     margin: 5px 0;
